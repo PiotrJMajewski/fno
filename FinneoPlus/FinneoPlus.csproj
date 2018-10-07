@@ -149,28 +149,97 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\icofont.css" />
+    <Content Include="Content\magnific-popup.css" />
+    <Content Include="Content\normalize.css" />
+    <Content Include="Content\owl.carousel.min.css" />
+    <Content Include="Content\responsive.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\icofont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Images\about-3.jpg" />
+    <Content Include="Images\about-image.png" />
+    <Content Include="Images\accounting.jpg" />
+    <Content Include="Images\apple-touch-icon.png" />
+    <Content Include="Images\banner1.svg" />
+    <Content Include="Images\banner2.svg" />
+    <Content Include="Images\banner3.svg" />
+    <Content Include="Images\banner4.svg" />
+    <Content Include="Images\blog-md-1.jpg" />
+    <Content Include="Images\blog-md-2.jpg" />
+    <Content Include="Images\blog-md-3.jpg" />
+    <Content Include="Images\blog-th-1.jpg" />
+    <Content Include="Images\blog-th-2.jpg" />
+    <Content Include="Images\blog-th-3.jpg" />
+    <Content Include="Images\count-bg.jpg" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\finneoplus_big.png" />
+    <Content Include="Images\header-bg-2.jpg" />
+    <Content Include="Images\header-bg-3.jpg" />
+    <Content Include="Images\header-bg.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\service-1.jpg" />
+    <Content Include="Images\service-2.jpg" />
+    <Content Include="Images\service-3.jpg" />
+    <Content Include="Images\service-4.jpg" />
+    <Content Include="Images\service-line.jpg" />
+    <Content Include="Images\skill-3.png" />
+    <Content Include="Images\skill-image.png" />
+    <Content Include="Images\team-1.jpg" />
+    <Content Include="Images\team-2.jpg" />
+    <Content Include="Images\team-3.jpg" />
+    <Content Include="Images\team-4.jpg" />
+    <Content Include="Images\team-5.png" />
+    <Content Include="Images\team-6.png" />
+    <Content Include="Images\testimonial-1.png" />
+    <Content Include="Images\testimonial-2.png" />
+    <Content Include="Images\video-button.png" />
+    <Content Include="Images\video-image.png" />
+    <Content Include="Images\work-1.jpg" />
+    <Content Include="Images\work-10.jpg" />
+    <Content Include="Images\work-11.jpg" />
+    <Content Include="Images\work-2.jpg" />
+    <Content Include="Images\work-3.jpg" />
+    <Content Include="Images\work-4.jpg" />
+    <Content Include="Images\work-5.jpg" />
+    <Content Include="Images\work-6.jpg" />
+    <Content Include="Images\work-7.jpg" />
+    <Content Include="Images\work-8.jpg" />
+    <Content Include="Images\work-9.jpg" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\icofont.eot" />
+    <Content Include="fonts\icofont.ttf" />
+    <Content Include="fonts\icofont.woff" />
+    <Content Include="Scripts\appear.js" />
+    <Content Include="Scripts\bars.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\contact-form.js" />
+    <Content Include="Scripts\counterup.min.js" />
+    <Content Include="Scripts\easypiechart.min.js" />
+    <Content Include="Scripts\jquery-1.12.4.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\magnific-popup.min.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\maps.js" />
+    <Content Include="Scripts\mixitup.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.min.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\scrollUp.min.js" />
+    <Content Include="Scripts\site.js" />
+    <Content Include="Scripts\site.min.js" />
+    <Content Include="Scripts\waypoints.min.js" />
+    <Content Include="Scripts\wow.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -182,8 +251,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -191,17 +258,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Properties\PublishProfiles\finneoplus.pl - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
